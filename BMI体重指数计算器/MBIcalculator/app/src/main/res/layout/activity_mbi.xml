@@ -1,0 +1,108 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/aa">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="体重指数计算器"
+        android:textColor="#fffffafa"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="身高："
+            android:textColor="#fffffbfb"
+            android:textSize="30sp"
+            android:paddingTop="40dp"
+            android:layout_marginLeft="60dp" />
+        <EditText
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/height"
+            android:textSize="30sp"
+            android:inputType="number"
+            android:textColor="#fffafbff"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cm"
+            android:textColor="#fff9fdff"
+            android:textSize="30sp"
+            android:paddingTop="40dp"
+             />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="体重："
+            android:textColor="#fffbffff"
+            android:textSize="30sp"
+            android:paddingTop="40dp"
+            android:layout_marginLeft="60dp" />
+        <EditText
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/weight"
+            android:inputType="number"
+            android:textSize="30sp"
+            android:textColor="#fffafbff"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="kg"
+            android:textColor="#fffafbff"
+            android:textSize="30sp"
+            android:paddingTop="40dp"
+            android:paddingBottom="40dp"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="计算BMI"
+        android:textColor="#ff000000"
+        android:id="@+id/BMIbutton"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/show"
+            android:textSize="30sp"
+            android:textColor="#fffafbff"/>
+
+</LinearLayout>
